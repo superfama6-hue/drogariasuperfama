@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Drogaria Superfama - Ofertas</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:linear-gradient(135deg,#0d47a1,#1976d2);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.logo{
+    width:120px;
+    margin-bottom:15px;
+}
+
+.banner{
+    background:#ff1744;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:1.4rem;
+    font-weight:bold;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+.categoria{
+    margin-top:30px;
+}
+
+.categoria h2{
+    color:#0d47a1;
+    margin-bottom:15px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.produto{
+    font-size:1.1rem;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.preco{
+    color:#ff1744;
+    font-size:1.8rem;
+    font-weight:bold;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-size:30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" class="logo" alt="Drogaria Superfama">
+    <h1>DROGARIA SUPERFAMA</h1>
+    <p>Qualidade • Economia • Confiança</p>
+</header>
+
+<div class="banner">
+🔥 OFERTAS IMPERDÍVEIS 🔥
+</div>
+
+<div class="container">
+
+    <section class="categoria">
+        <h2>💪 Suplementos</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <div class="produto">Creatina Gummies 60 un.</div>
+                <div class="preco">R$ 49,99</div>
+            </div>
+
+            <div class="card">
+                <div class="produto">Creatina Rex Premium 300g</div>
+                <div class="preco">R$ 39,99</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>👶 Bebê</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <div class="produto">Mucilon 360g</div>
+                <div class="preco">R$ 9,99</div>
+            </div>
+
+            <div class="card">
+                <div class="produto">Fralda Capricho Shortinho</div>
+                <div class="preco">R$ 37,99</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>💄 Beleza</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <div class="produto">Body Splash Giovanna Baby</div>
+                <div class="preco">R$ 28,49</div>
+            </div>
+
+            <div class="card">
+                <div class="produto">Carmed</div>
+                <div class="preco">R$ 12,99</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>💊 Medicamentos</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <div class="produto">Dipirona Gotas</div>
+                <div class="preco">R$ 4,99</div>
+            </div>
+
+            <div class="card">
+                <div class="produto">Dorflex 10 comprimidos</div>
+                <div class="preco">R$ 7,50</div>
+            </div>
+
+            <div class="card">
+                <div class="produto">Torsilax 30 comprimidos</div>
+                <div class="preco">R$ 11,99</div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <h3>Drogaria Superfama</h3>
+    <p>Os menores preços da região!</p>
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/55SEUNUMERO"
+target="_blank">
+📱
+</a>
+
+</body>
+</html>
